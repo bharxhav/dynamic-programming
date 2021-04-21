@@ -22,9 +22,8 @@ def getWays(x, y):
 
 
 if __name__ == '__main__':
-
-    print(getWays(1, 0))
-    print(getWays(0, 1))
     print(getWays(1, 1))
+    print(getWays(2, 3))
+    print(getWays(3, 2))
     print(getWays(3, 3))
-    print(getWays(2, 2))
+    print(getWays(18, 18))  # Very very slow
