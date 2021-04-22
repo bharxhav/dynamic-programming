@@ -27,4 +27,5 @@ if __name__ == '__main__':
 
 
 # In this solution, we are bruteforcing more than necessary.
-# Since we are iterating over and over, it takes more time.
+# Since we are iterating over and over again, there are n branches for each node, previously, we only had three.
+# Which are repeating case, taking case, not taking case. Thus previous one is far more efficient.
